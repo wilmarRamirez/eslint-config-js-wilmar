@@ -1,11 +1,11 @@
-# eslint-config-wilmar
+# eslint-config-js-wilmar
 
 Configuración de ESLint reutilizable para proyectos Node.js y JavaScript, con reglas personalizadas de buenas prácticas.
 
 ## 🚀 Instalación
 
 ```bash
-npm install --save-dev eslint eslint-config-wilmar
+npm install --save-dev eslint eslint-config-js-wilmar
 ```
 
 ## ⚙️ Uso
@@ -13,7 +13,7 @@ npm install --save-dev eslint eslint-config-wilmar
 En tu archivo `eslint.config.js`:
 
 ```js
-import config from 'eslint-config-wilmar/config'
+import config from 'eslint-config-js-wilmar/config'
 
 export default config
 ```
