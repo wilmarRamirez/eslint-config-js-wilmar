@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-wilmar",
+  "version": "1.0.0",
+  "description": "ESLint base config by Wilmar for Node.js projects.",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "exports": {
+    "./config": "./index.js"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "nodejs",
+    "linting"
+  ],
+  "author": "Wilmar",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-vue": "^9.17.0",
+    "globals": "^13.0.0"
+  }
+}
